@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <div id="overlay" onclick="overlayOff()">
+        <ul class="menu-container">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./cart.html">Cart</a>
+            <a href="./blogs.html">Blogs</a>
+            <a href="./contact.html">Contact</a>
+        </ul>
+    </div>
+    
+    <div class="navbar">
+    
+        <div class="menu">
+          <i class="bi bi-list" id="open-menu" onclick="overlayOn()"></i>
+          <i class="bi bi-x" id="close-menu" style="display: none"></i>
+        </div>
+    
+        <a href="index.html">
+          <h2>Clothing Store</h2>
+        </a>
+    
+        <a href="cart.html">
+          <div class="cart">
+            <i class="bi bi-cart2"></i>
+            <div id="cartAmount" class="cartAmount">0</div>
+          </div>
+        </a>
+    
+    </div>
+
+    <div class="blogs">
+        <div class="grid-1 grid-1-mobile blog">
+            <h2 class="text-center">Good, Better, Best</h2>
+            <p>Learning how to choose what kind of t-shirt to use for your craft or screen-printing project depends on your crafting or screen-printing business needs. Some fabric and screen-printing choices make more sense for your bottom line than others. Or perhaps you’re looking for a different kind of t-shirt for your business due to changing needs.</p>
+            <p>Fabric and garment construction vary between t-shirts and, thus, yield different quality results. What kind of t-shirt you choose depends on your project’s price point, desired quality, and how you want the fabric to feel. Natural fibers tend to be more durable and age better over time than synthetic fibers, like poly-blends. This is because different fabrics have varying expiration dates, so a blend is only as long-lasting as its parts. However, this isn’t always the case, and, perhaps, a synthetic fabric blend may be better suited for your project. Some synthetic blends have superior elasticity and breathability. So, what kind of fabric you choose depends on your goals.</p>
+            <p>While several factors influence the quality of t-shirts, four stand out: the fabric used, how a screen-printing method has been applied, and which garment construction best fits your needs. Depending on the desired effect for your final product’s design, it may make sense to go with a more cost-effective fabric if the screen-printing application and ink are particularly well-done. Then again, if the fabric quality doesn’t stand up to constant wear, then it won’t matter how well-made a print may be.</p>
+            <p>Different kinds of cotton vary in fiber length and in how tightly those fibers are woven. The longer and tighter the fibers are, the longer the fabric will last. Long-lasting quality depends, ultimately, on a fabric’s softness and density rather than its weight.</p>
+            <span>What are some essential things to keep in mind regarding customized t-shirt quality? Below are some considerations:</span>
+            <ul>
+                <li>Understand the durability and breathability of the fabric.</li>
+                <li>Check image quality or embroidered details.</li>
+                <li>Read wash and care directions for t-shirts.</li>
+                <li>Inspect hems, seams, and stitches for missing threads inside and outside of the garment.</li>
+                <li>Count a garment’s stitches – the more stitches; the more time was spent on constructing it.</li>
+                <li>Whether <a>polyester</a>, <a>fleece</a>, <a>cotton</a> or <a>tri-blends</a>, how will the fabric hold up to screen printing?</li>
+            </ul>
+        </div>
+
+        <div class="grid-1 grid-1-mobile blog">
+            <h2 class="text-center">Getting The Most Out of Your Wardrobe</h2>
+            <p>There are all kinds of wardrobes to suit our needs. But what works for one person’s lifestyle, may not for another. So it’s important to remember that fashion is personal, a reflection of how we view ourselves and the world around us, as well as the times (and climates) in which we live.</p>
+            <p>Though styles change seasonally or with economic swings, you don’t need to run out and buy new clothes every season, a common approach in America and Asia. We can take a page out of our European neighbors’ fashion handbook and wear less, but better, ultimately resulting in a more sustainable way of thinking about fashion.</p>
+            <p>Too often we buy clothes on a whim because the sale was just “too good” to pass up or because it looked good when we tried it on in the store but didn’t give its wearability enough consideration. Are you saving your clothes for “one day,” but they somehow keep accumulating and you can’t remember the last time you wore them? Or, perhaps, you do remember, but you’re unwilling to part with an item because of sentimental attachment? How many times have you worn an item of clothing that you bought because you found them on deep-sale, but they didn’t quite fit and you’ve never bothered getting them tailored?</p>
+            <p>This doesn’t mean you have to give up on trends. After all, some become classics over time while other trends reimagine classics. But, you may discover that you can get more wear out of your wardrobe by creating a classic foundation and mixing in high and low pieces.</p>
+            <div class="grid-3 grid-1-mobile">
+                <img src="./images/wardrobe1.jfif" alt="">
+                <img src="./images/wardrobe2.jfif" alt="">
+                <img src="./images/wardrobe3.jfif" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="src/main.js"></script>
+
+</body>
+</html>
